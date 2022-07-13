@@ -14,5 +14,3 @@ if (typeof module !== 'undefined') {
     fetchProducts,
   };
 }
-
-fetchProducts('Asus');
