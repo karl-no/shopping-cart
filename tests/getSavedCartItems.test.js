@@ -12,7 +12,4 @@ describe('4 - Teste a função getSavedCartItems', () => {
     getSavedCartItems(); 
     expect(localStorage.getItem).toHaveBeenCalledWith('cartItems');
   });
-  // it('Testa se, caso não seja passado um argumento, a função saveCartItems retorn a mensagem de erro \'Nenhum item foi adicionado.\'', () => {
-  //   expect(getSavedCartItems()).toEqual(new Error('Nenhum item foi adicionado.'));
-  // });
 });
